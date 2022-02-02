@@ -4,7 +4,7 @@ import Home from "../pages/home/index";
 function Routing() {
   return (
     <Routes>
-      <Route path="/home" element={<Home />} />
+      <Route path="/" element={<Home />} />
     </Routes>
   );
 }
