@@ -1,12 +1,10 @@
 import Globalstyle from "./Global-Style";
+import Routing from "./routes/index";
 
 function App() {
   return (
     <>
-      {/* prettier-ignore */}
-      <div>
-        david santos
-      </div>
+      <Routing />
       <Globalstyle />
     </>
   );
