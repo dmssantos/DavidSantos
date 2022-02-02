@@ -1,9 +1,14 @@
+import Globalstyle from "./Global-Style";
+
 function App() {
-  // prettier-ignore
   return (
-    <div>
-      Hello World
-    </div>
+    <>
+      {/* prettier-ignore */}
+      <div>
+        david santos
+      </div>
+      <Globalstyle />
+    </>
   );
 }
 
