@@ -2,7 +2,7 @@ import styled from "styled-components";
 import Globalstyle from "./Global-Style";
 import Routing from "./routes/index";
 
-const Wrapper = styled.div`
+const WrapperApp = styled.div`
   width: 100vw;
   height: 100vh;
   background: #000;
@@ -16,10 +16,10 @@ const Wrapper = styled.div`
 
 function App() {
   return (
-    <Wrapper>
+    <WrapperApp>
       <Routing />
       <Globalstyle />
-    </Wrapper>
+    </WrapperApp>
   );
 }
 

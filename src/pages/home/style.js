@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
-export const Wrapper = styled.div`
-  background: red;
+const WrapperHome = styled.div`
   width: 480px;
   height: 330px;
-  margin-bottom: 159px;
+  margin-bottom: 130px;
 `;
+
+export default WrapperHome;
