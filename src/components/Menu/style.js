@@ -8,6 +8,7 @@ export const Wrapper = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  justify-self: end;
 
   div.menu {
     width: 60px;
@@ -21,7 +22,7 @@ export const Wrapper = styled.div`
 
     transition: 0.3s ease-in-out;
 
-    img {
+    img.icons {
       transition: 0.1s ease-in-out;
     }
 
@@ -30,7 +31,7 @@ export const Wrapper = styled.div`
       height: 80px;
       margin-bottom: 30px;
 
-      img {
+      img.icons {
         transform: scale(120%);
       }
     }

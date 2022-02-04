@@ -13,4 +13,9 @@ export default createGlobalStyle`
     box-sizing: border-box;
     color: white;
   }
+
+  body {
+    background-color: var(--black);
+    padding: 50px 80px 0;
+  }
 `;

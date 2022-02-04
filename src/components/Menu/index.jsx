@@ -7,27 +7,27 @@ function Menu() {
     <Wrapper>
       <div className="menu">
         <Link to="/">
-          <img src={icons.home} alt="home" />
+          <img className="icons" src={icons.home} alt="home" />
         </Link>
       </div>
       <div className="menu">
         <Link to="/perfil">
-          <img src={icons.perfil} alt="perfil" />
+          <img className="icons" src={icons.perfil} alt="perfil" />
         </Link>
       </div>
       <div className="menu">
         <Link to="/trabalhos">
-          <img src={icons.trabalhos} alt="trablahos" />
+          <img className="icons" src={icons.trabalhos} alt="trablahos" />
         </Link>
       </div>
       <div className="menu">
         <Link to="/curriculo">
-          <img src={icons.curriculo} alt="curriculo" />
+          <img className="icons" src={icons.curriculo} alt="curriculo" />
         </Link>
       </div>
       <div className="menu">
         <Link to="/certificados">
-          <img src={icons.certificados} alt="certificados" />
+          <img className="icons" src={icons.certificados} alt="certificados" />
         </Link>
       </div>
     </Wrapper>
