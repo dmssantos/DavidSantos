@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  width: 588px;
+  width: 460px;
   height: 60px;
 
   display: flex;
@@ -18,5 +18,21 @@ export const Wrapper = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+
+    transition: 0.3s ease-in-out;
+
+    img {
+      transition: 0.1s ease-in-out;
+    }
+
+    :hover {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 30px;
+
+      img {
+        transform: scale(120%);
+      }
+    }
   }
 `;

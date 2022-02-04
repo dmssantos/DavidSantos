@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Wrapper } from "./style";
 import * as icons from "../../utils/images/icons/icons";
 
@@ -5,10 +6,14 @@ function Menu() {
   return (
     <Wrapper>
       <div className="menu">
-        <img src={icons.home} alt="home" />
+        <Link to="/">
+          <img src={icons.home} alt="home" />
+        </Link>
       </div>
       <div className="menu">
-        <img src={icons.perfil} alt="perfil" />
+        <Link to="/perfil">
+          <img src={icons.perfil} alt="perfil" />
+        </Link>
       </div>
       <div className="menu">
         <img src={icons.trabalhos} alt="trablahos" />
