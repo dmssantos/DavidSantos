@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import Globalstyle from "./Global-Style";
 import Routing from "./routes/index";
+import Menu from "./components/Menu/index";
 
 const WrapperApp = styled.div`
   width: 100vw;
@@ -19,6 +20,7 @@ function App() {
     <WrapperApp>
       <Routing />
       <Globalstyle />
+      <Menu />
     </WrapperApp>
   );
 }
