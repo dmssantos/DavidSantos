@@ -1,12 +1,14 @@
 import { Routes, Route } from "react-router-dom";
-import Home from "../pages/home/index";
-import Perfil from "../pages/perfil/index";
+import * as Pages from "../pages/index";
 
 function Routing() {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/perfil" element={<Perfil />} />
+      <Route path="/" element={<Pages.Home />} />
+      <Route path="/perfil" element={<Pages.Perfil />} />
+      <Route path="/trabalhos" element={<Pages.Trabalhos />} />
+      <Route path="/curriculo" element={<Pages.Curriculo />} />
+      <Route path="/certificados" element={<Pages.Certificados />} />
     </Routes>
   );
 }

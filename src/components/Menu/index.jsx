@@ -16,13 +16,19 @@ function Menu() {
         </Link>
       </div>
       <div className="menu">
-        <img src={icons.trabalhos} alt="trablahos" />
+        <Link to="/trabalhos">
+          <img src={icons.trabalhos} alt="trablahos" />
+        </Link>
       </div>
       <div className="menu">
-        <img src={icons.curriculo} alt="curriculo" />
+        <Link to="/curriculo">
+          <img src={icons.curriculo} alt="curriculo" />
+        </Link>
       </div>
       <div className="menu">
-        <img src={icons.certificados} alt="certificados" />
+        <Link to="/certificados">
+          <img src={icons.certificados} alt="certificados" />
+        </Link>
       </div>
     </Wrapper>
   );

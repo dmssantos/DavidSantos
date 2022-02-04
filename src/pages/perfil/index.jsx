@@ -1,6 +1,6 @@
 import WrapperPerfil from "./style";
 
-function Home() {
+function Prefil() {
   return (
     <WrapperPerfil>
       <h1>perfil</h1>
@@ -8,4 +8,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Prefil;
