@@ -2,34 +2,34 @@ import { Link } from "react-router-dom";
 import { Wrapper } from "./style";
 import * as icons from "../../utils/images/icons/icons";
 
-function Menu() {
+function Menu({ logoActive, logoInactive }) {
   return (
     <Wrapper>
-      <div className="menu">
-        <Link to="/">
+      <Link to="/" onClick={logoInactive}>
+        <div className="menu">
           <img className="icons" src={icons.home} alt="home" />
-        </Link>
-      </div>
-      <div className="menu">
-        <Link to="/perfil">
+        </div>
+      </Link>
+      <Link to="/perfil" onClick={logoActive}>
+        <div className="menu">
           <img className="icons" src={icons.perfil} alt="perfil" />
-        </Link>
-      </div>
-      <div className="menu">
-        <Link to="/trabalhos">
+        </div>
+      </Link>
+      <Link to="/trabalhos" onClick={logoActive}>
+        <div className="menu">
           <img className="icons" src={icons.trabalhos} alt="trablahos" />
-        </Link>
-      </div>
-      <div className="menu">
-        <Link to="/curriculo">
+        </div>
+      </Link>
+      <Link to="/curriculo" onClick={logoActive}>
+        <div className="menu">
           <img className="icons" src={icons.curriculo} alt="curriculo" />
-        </Link>
-      </div>
-      <div className="menu">
-        <Link to="/certificados">
+        </div>
+      </Link>
+      <Link to="/certificados" onClick={logoActive}>
+        <div className="menu">
           <img className="icons" src={icons.certificados} alt="certificados" />
-        </Link>
-      </div>
+        </div>
+      </Link>
     </Wrapper>
   );
 }
