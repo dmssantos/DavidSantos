@@ -15,6 +15,13 @@ function Trabalhos() {
         <div className="card" />
         <div className="card" />
       </div>
+      <div className="WrapperPagination">
+        <div className="pages" />
+        <div className="pages" />
+        <div className="pages" />
+        <div className="pages" />
+        <div className="pages" />
+      </div>
     </WrapperTrabalhos>
   );
 }
