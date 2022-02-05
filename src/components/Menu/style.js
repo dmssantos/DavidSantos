@@ -14,7 +14,7 @@ export const Wrapper = styled.div`
     width: 60px;
     height: 60px;
     border-radius: 100%;
-    background-color: var(--white);
+    border: 3px solid var(--white);
 
     display: flex;
     align-items: center;
@@ -23,7 +23,7 @@ export const Wrapper = styled.div`
     transition: 0.3s ease-in-out;
 
     img.icons {
-      transition: 0.1s ease-in-out;
+      transition: 0.3s ease-in-out;
     }
 
     :hover {

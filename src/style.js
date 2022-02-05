@@ -19,7 +19,7 @@ const WrapperApp = styled.div`
 
   div.content {
     width: 100%;
-    height: calc(100vh - 250px);
+    height: calc(100vh - 220px);
     padding: 10px;
 
     display: flex;
