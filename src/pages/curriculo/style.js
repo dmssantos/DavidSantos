@@ -1,9 +1,8 @@
 import styled from "styled-components";
 
 const WrapperCurriculo = styled.div`
-  width: 480px;
-  height: 330px;
-  margin-bottom: 130px;
+  width: 100%;
+  height: 100%;
 `;
 
 export default WrapperCurriculo;
