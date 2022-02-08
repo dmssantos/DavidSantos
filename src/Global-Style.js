@@ -14,6 +14,10 @@ export default createGlobalStyle`
     color: white;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     background-color: var(--black);
     padding: 50px 80px 0;

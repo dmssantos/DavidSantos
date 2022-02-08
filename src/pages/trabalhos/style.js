@@ -30,6 +30,17 @@ const WrapperTrabalhos = styled.div`
       margin-right: 10px;
       border-radius: 32px;
       flex-shrink: 0;
+
+      font-size: 2em;
+      color: black;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      :hover {
+        cursor: pointer;
+      }
     }
   }
 
@@ -50,6 +61,14 @@ const WrapperTrabalhos = styled.div`
       border-radius: 100%;
 
       filter: opacity(30%);
+
+      :hover {
+        cursor: pointer;
+      }
+    }
+
+    img:hover {
+      cursor: pointer;
     }
   }
 `;
