@@ -18,11 +18,9 @@ function App() {
 
   return (
     <WrapperApp>
-      {active && (
-        <div className="wrapperlogo">
-          <img className="logo-menor" src={logo} alt="logo" />
-        </div>
-      )}
+      <div className="wrapperlogo">
+        {active && <img className="logo-menor" src={logo} alt="logo" />}
+      </div>
       <div className="content">
         <Routing />
       </div>
