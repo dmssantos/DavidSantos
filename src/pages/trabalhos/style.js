@@ -17,11 +17,7 @@ const WrapperTrabalhos = styled.div`
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    overflow-x: scroll;
-
-    ::-webkit-scrollbar {
-      display: none;
-    }
+    overflow-x: hidden;
 
     div.card {
       background-color: white;
