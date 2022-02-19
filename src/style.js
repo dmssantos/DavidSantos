@@ -11,6 +11,7 @@ const WrapperApp = styled.div`
 
   div.wrapperlogo {
     width: 100%;
+    margin-bottom: 10px;
 
     img.logo-menor {
       align-self: flex-start;

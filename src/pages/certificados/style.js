@@ -16,7 +16,7 @@ const WrapperCertificados = styled.div`
   }
 
   img {
-    width: 250px;
+    width: 220px;
     margin: 0 10px 10px 0;
   }
 `;

@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   width: 460px;
   height: 60px;
+  margin-top: 25px;
 
   display: flex;
   flex-direction: row;
@@ -29,7 +30,7 @@ export const Wrapper = styled.div`
     :hover {
       width: 80px;
       height: 80px;
-      margin-bottom: 30px;
+      margin-bottom: 20px;
 
       img.icons {
         transform: scale(120%);
