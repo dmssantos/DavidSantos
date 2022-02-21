@@ -1,9 +1,10 @@
 import WrapperCurriculo from "./style";
+import Resumo from "./resumo";
 
 function Curriculo() {
   return (
     <WrapperCurriculo>
-      <h1>Curriculo</h1>
+      <Resumo />
     </WrapperCurriculo>
   );
 }
