@@ -1,9 +1,11 @@
+import Logo from "../../components/Logo/index";
 import WrapperCertificados from "./style";
 import * as Cert from "../../utils/images/certifications/images";
 
 function Certificados() {
   return (
     <WrapperCertificados>
+      <Logo />
       <img src={Cert.image1} alt="image1" loading="lazy" />
       <img src={Cert.image2} alt="image2" loading="lazy" />
       <img src={Cert.image3} alt="image3" loading="lazy" />

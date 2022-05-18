@@ -20,6 +20,6 @@ export default createGlobalStyle`
 
   body {
     background-color: var(--black);
-    padding: 50px 80px 0;
+    /* padding: 10px 50px; */
   }
 `;

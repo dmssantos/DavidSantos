@@ -1,10 +1,12 @@
 import WrapperTrabalhos from "./style";
-import Carroussel from "../../components/Carroussel";
+import Logo from "../../components/Logo/index";
+// import Carroussel from "../../components/Carroussel";
 
 function Trabalhos() {
   return (
     <WrapperTrabalhos>
-      <Carroussel />
+      <Logo />
+      {/* <Carroussel /> */}
     </WrapperTrabalhos>
   );
 }
